@@ -17,7 +17,7 @@ model_path = hf_hub_download(repo_id=REPO_ID, filename=MODEL_FILE)
 # Load YOLO model
 model = YOLO(model_path)
 # Step 3: Load your image
-image_path = "masked_page_0003.png"  # Change this to your image
+image_path = "handwritten4.png"  # Change this to your image
 image = cv2.imread(image_path)
 # Step 4: Perform inference
 try:
